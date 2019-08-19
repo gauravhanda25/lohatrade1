@@ -1,0 +1,133 @@
+.cf-field{
+	margin-bottom: 25px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 25px;
+}
+
+.cf-field input[type="text"],
+.cf-field input[type="number"],
+.cf-field select{
+	width: 100%;
+}
+
+.cf-field label{
+	font-weight: 700;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.cf-no-terms,
+.cf-no-nested-terms{
+	font-size: 12px;
+}
+
+.cf-new-hierarchy-label,
+.cf-no-terms-wrap{
+	display: none;
+}
+
+.cf-nested{
+	margin-top: 10px;
+	padding-left: 20px;
+}
+
+.cf-no-terms-wrap{
+	padding-left: 20px;
+}
+
+.cf-nested-select-new-wrap{
+	margin-top: 10px;
+}
+
+body .cf-field .cf-nested-new-label-wrap select{
+	width: 100%;
+}
+
+.cf-nested-inputs{
+	padding-left: 20px;
+}
+
+.cf-nested-inputs > div{
+	margin-top: 10px;
+}
+
+.color-search li{
+	float: left;
+}
+
+.color-search:after{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.color-search,
+.color-search li{
+	margin: 0px;
+	padding: 0px;
+}
+
+.color-search li{
+	width: 20px;
+	text-align: center;
+}
+
+.color-search input{
+	display: none;
+}
+
+.color-search label{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.color-search input:checked + label{
+	width: 17px;
+	height: 17px;
+	margin-top: -1px;
+}
+
+.color-search li.colored-default label{
+	border: 1px solid #ccc;
+}
+
+.cf-multiple-color-reset,
+.cf-multiple-color-reset:focus,
+.cf-multiple-color-reset:active,
+.cf-another-color,
+.cf-another-color:focus,
+.cf-another-color:active{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #ccc;
+	font-weight: 700;
+}
+
+.cf-multiple-color-reset{
+	width: 10px;
+    height: 30px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.flex-wrap.cf-multiple-color-item{
+	justify-content: flex-end;
+	margin-bottom: 5px;
+}
+
+.cf-values-wrap input[type="radio"]:disabled + label,
+.cf-values-wrap input[type="checkbox"]:disabled + label,
+.cf-values-wrap input[type="radio"]:disabled,
+.cf-values-wrap input[type="checkbox"]:disabled{
+	opacity: 0.5;
+}
+
+.cf-values-wrap input[type="radio"]:disabled{
+	background: transparent;
+}
+
+.author-dashboard .color-search input:checked + label{
+	margin-top: -1px;
+}

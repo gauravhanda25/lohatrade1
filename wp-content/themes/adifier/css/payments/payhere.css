@@ -1,0 +1,24 @@
+#payhere-button{
+	display: block;
+	padding: 4px 0px;
+}
+
+.payhere-loader{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #fff;
+	opacity: 0.5;
+	z-index: 1;
+	display: none;
+}
+
+.payhere-loader i{
+	color: #00a591;
+	position: absolute;
+	top: calc(50% - 15px);
+	left: calc(50% - 15px);
+	font-size: 30px;
+}

@@ -1,0 +1,42 @@
+#worldpay-button{
+	display: block;
+	padding: 4px 0px;
+}
+
+#token_container_holder iframe,
+#token_container_holder{
+	width: 100%!important;
+}
+
+#worldpay .modal-content{
+	padding: 0px;
+}
+
+#worldpay .modal-footer{
+	margin: 0px;
+	padding: 20px;
+}
+
+#worldpay .modal-footer input{
+	margin: 0px;
+}
+
+.worldpay-loader{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #fff;
+	opacity: 0.5;
+	z-index: 1;
+	display: none;
+}
+
+.worldpay-loader i{
+	color: #00a591;
+	position: absolute;
+	top: calc(50% - 15px);
+	left: calc(50% - 15px);
+	font-size: 30px;
+}

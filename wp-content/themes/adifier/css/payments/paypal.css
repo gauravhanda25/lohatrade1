@@ -1,0 +1,17 @@
+#paypal-button{
+	opacity: 0.000001;
+	position: relative;
+	z-index: 2;
+	padding-top: 17px;
+}
+
+.paypal-covering{
+	background-image: url('../../images/paypal.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	z-index: 1;
+	margin-top: -59px;
+	height: 54px;
+}
