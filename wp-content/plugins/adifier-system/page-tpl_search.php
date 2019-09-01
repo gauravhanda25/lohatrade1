@@ -2,7 +2,7 @@
 /*
 Template Name: Search
 */
-
+die('please come here');
 get_header();
 the_post();
 
