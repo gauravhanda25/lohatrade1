@@ -1181,6 +1181,7 @@ function adifier_get_available_page_templates(){
 		'page-tpl_search_map.php' 	=> 'Search With Map',
 		'page-tpl_contact.php' 		=> 'Page Contact',
 		'page-tpl_sellers.php' 		=> 'Sellers',
+		'page-tpl_browse_by_buy.php' 		=> 'Browse By Buy',
 	);
 }
 }
